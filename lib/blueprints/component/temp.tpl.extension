@@ -1,0 +1,8 @@
+{% if filesType.html === 'jade' || filesType.html === 'pug' %}
+section(class="{{name | kebabCase}}")
+  h1 {{name | startCase}}
+{% else %}
+<section class="{{name | kebabCase}}">
+  <h1>{{name | startCase}}</h1>
+</section>
+{% endif %}
