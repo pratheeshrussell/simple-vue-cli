@@ -1,6 +1,6 @@
 {
   "name": "@pratheeshrussell/simple-vue-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Cli for Vue js",
   "main": "lib/svc.js",
   "homepage": "https://github.com/pratheeshrussell/simple-vue-cli.git",
